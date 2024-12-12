@@ -1,0 +1,14 @@
+
+
+Forward:           ('Rcyl', 'age', 'cfe', 'mass', 'mgfe', 'phi', 'vRcyl', 'vphi', 'vz')
+Accuracy:  0.8455 
+
+Forward (abs vz):  ('Rcyl', 'age', 'cfe', 'mass', 'mgfe', 'ofe', 'phi', 'vRcyl', 'vphi', 'vz')
+Accuracy:  0.842 
+
+Backwards:           ('age', 'cfe', 'mgfe', 'phi', 'vRcyl', 'vphi', 'vz')
+Accuracy:  0.841 
+
+Backwards (abs vz):  ('age', 'cfe', 'mgfe', 'phi', 'vRcyl', 'vphi', 'vz', 'z')
+Accuracy:  0.84 
+
