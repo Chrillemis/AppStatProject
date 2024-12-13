@@ -1,0 +1,30 @@
+\begin{table}[h!]
+\caption{Differnet neural networks}
+\label{tab:RawData}
+\begin{tabular}{llllrrrlr}
+\toprule
+ &  & Optimizer & Loss & Accuracy & Layers & Neurons & Activation & Rate \\
+\midrule
+\multirow[t]{3}{*}{('Neural Network 1', 0.8695)} & 0 & adam & binary_crossentropy & 0.87 & 1 & 64.00 & relu & - \\
+ & 1 & adam & binary_crossentropy & 0.87 & 2 & 64.00 & relu & - \\
+ & 2 & adam & binary_crossentropy & 0.87 & 3 & 1.00 & sigmoid & - \\
+\cline{1-9}
+\multirow[t]{3}{*}{('Neural Network 2', 0.855)} & 3 & adam & categorical_crossentropy & 0.85 & 1 & 64.00 & relu & - \\
+ & 4 & adam & categorical_crossentropy & 0.85 & 2 & 64.00 & relu & - \\
+ & 5 & adam & categorical_crossentropy & 0.85 & 3 & 1.00 & sigmoid & - \\
+\cline{1-9}
+\multirow[t]{2}{*}{('Neural Network 3', 0.8565)} & 6 & adam & binary_crossentropy & 0.86 & 1 & 16.00 & relu & - \\
+ & 7 & adam & binary_crossentropy & 0.86 & 2 & 1.00 & sigmoid & - \\
+\cline{1-9}
+\multirow[t]{5}{*}{('Neural Network 4', 0.851)} & 8 & adam & binary_crossentropy & 0.85 & 1 & 16.00 & relu & - \\
+ & 9 & adam & binary_crossentropy & 0.85 & 2 & - & - & 0.50 \\
+ & 10 & adam & binary_crossentropy & 0.85 & 3 & 16.00 & relu & - \\
+ & 11 & adam & binary_crossentropy & 0.85 & 4 & - & - & 0.50 \\
+ & 12 & adam & binary_crossentropy & 0.85 & 5 & 1.00 & sigmoid & - \\
+\cline{1-9}
+\multirow[t]{2}{*}{('Neural Network 5', 0.88)} & 13 & rmsprop & binary_crossentropy & 0.88 & 1 & 16.00 & relu & - \\
+ & 14 & rmsprop & binary_crossentropy & 0.88 & 2 & 1.00 & sigmoid & - \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\end{table}
