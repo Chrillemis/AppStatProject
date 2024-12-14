@@ -1,29 +1,29 @@
 \begin{table}[h!]
 \caption{Differnet neural networks}
 \label{tab:RawData}
-\begin{tabular}{llllrrrlrr}
+\begin{tabular}{llllrlrlrr}
 \toprule
  &  & Optimizer & Loss & Accuracy & Layers & Neurons & Activation & epochs & Rate \\
 \midrule
-\multirow[t]{3}{*}{Neural Network 1} & 0 & adam & binary	extunderscore crossentropy & 0.862 & 1 & 64.000 & relu & 100 & - \\
- & 1 & adam & binary	extunderscore crossentropy & 0.862 & 2 & 64.000 & relu & 100 & - \\
- & 2 & adam & binary	extunderscore crossentropy & 0.862 & 3 & 1.000 & sigmoid & 100 & - \\
+\multirow[t]{3}{*}{Neural Network 1} & 0 & adam & binary	extunderscore crossentropy & 0.851 & Dense & 1.000 & sigmoid & 100 & - \\
+ & 1 & adam & binary	extunderscore crossentropy & 0.851 & Dense & 64.000 & relu & 100 & - \\
+ & 2 & adam & binary	extunderscore crossentropy & 0.851 & Dense & 64.000 & relu & 100 & - \\
 \cline{1-10}
-\multirow[t]{3}{*}{Neural Network 2} & 3 & adam & categorical	extunderscore crossentropy & 0.854 & 1 & 64.000 & relu & 100 & - \\
- & 4 & adam & categorical	extunderscore crossentropy & 0.854 & 2 & 64.000 & relu & 100 & - \\
- & 5 & adam & categorical	extunderscore crossentropy & 0.854 & 3 & 2.000 & softmax & 100 & - \\
+\multirow[t]{3}{*}{Neural Network 2} & 3 & adam & categorical	extunderscore crossentropy & 0.852 & Dense & 2.000 & softmax & 100 & - \\
+ & 4 & adam & categorical	extunderscore crossentropy & 0.852 & Dense & 64.000 & relu & 100 & - \\
+ & 5 & adam & categorical	extunderscore crossentropy & 0.852 & Dense & 64.000 & relu & 100 & - \\
 \cline{1-10}
-\multirow[t]{2}{*}{Neural Network 3} & 6 & adam & binary	extunderscore crossentropy & 0.865 & 1 & 16.000 & relu & 100 & - \\
- & 7 & adam & binary	extunderscore crossentropy & 0.865 & 2 & 1.000 & sigmoid & 100 & - \\
+\multirow[t]{2}{*}{Neural Network 3} & 6 & adam & binary	extunderscore crossentropy & 0.866 & Dense & 1.000 & sigmoid & 100 & - \\
+ & 7 & adam & binary	extunderscore crossentropy & 0.866 & Dense & 16.000 & relu & 100 & - \\
 \cline{1-10}
-\multirow[t]{5}{*}{Neural Network 4} & 8 & adam & binary	extunderscore crossentropy & 0.834 & 1 & 16.000 & relu & 100 & - \\
- & 9 & adam & binary	extunderscore crossentropy & 0.834 & 2 & - & - & 100 & 0.500 \\
- & 10 & adam & binary	extunderscore crossentropy & 0.834 & 3 & 16.000 & relu & 100 & - \\
- & 11 & adam & binary	extunderscore crossentropy & 0.834 & 4 & - & - & 100 & 0.500 \\
- & 12 & adam & binary	extunderscore crossentropy & 0.834 & 5 & 1.000 & sigmoid & 100 & - \\
+\multirow[t]{5}{*}{Neural Network 4} & 8 & adam & binary	extunderscore crossentropy & 0.843 & Dense & 1.000 & sigmoid & 100 & - \\
+ & 9 & adam & binary	extunderscore crossentropy & 0.843 & Dense & 16.000 & relu & 100 & - \\
+ & 10 & adam & binary	extunderscore crossentropy & 0.843 & Dense & 16.000 & relu & 100 & - \\
+ & 11 & adam & binary	extunderscore crossentropy & 0.843 & Dropout & - & - & 100 & 0.500 \\
+ & 12 & adam & binary	extunderscore crossentropy & 0.843 & Dropout & - & - & 100 & 0.500 \\
 \cline{1-10}
-\multirow[t]{2}{*}{Neural Network 5} & 13 & rmsprop & binary	extunderscore crossentropy & 0.880 & 1 & 16.000 & relu & 10 & - \\
- & 14 & rmsprop & binary	extunderscore crossentropy & 0.880 & 2 & 1.000 & sigmoid & 10 & - \\
+\multirow[t]{2}{*}{Neural Network 5} & 13 & rmsprop & binary	extunderscore crossentropy & 0.880 & Dense & 1.000 & sigmoid & 10 & - \\
+ & 14 & rmsprop & binary	extunderscore crossentropy & 0.880 & Dense & 16.000 & relu & 10 & - \\
 \cline{1-10}
 \bottomrule
 \end{tabular}
